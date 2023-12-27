@@ -2,7 +2,6 @@ public class Triangle {
     private int a;
     private int b;
     private int c;
-
     public Triangle(int a, int b, int c) throws TriangleException {
         if (a<=0||b<=0||c<=0){
             throw new TriangleException("có cạnh là số âm");
